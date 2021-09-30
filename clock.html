@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <script src="clock.js" defer></script>
+    <link rel="stylesheet" href="clock.css" />
+  </head>
+  <body>
+    <div id="clock">
+      <div id="face">
+        <div id="minutes" class="numbers">1</div>
+        <div id="divider" class="numbers">:</div>
+        <div id="seconds" class="numbers">45</div>
+      </div>
+    </div>
+    <div id="btns">
+      <button id="start-stop" class="start">START</button>
+      <button id="clear">CLEAR</button>
+    </div>
+
+    <div id="newTime">
+      <input type="text" id="timeInput" placeholder="Enter time, eg. 1:45..." />
+      <button id="setTime">SET TIME</button>
+    </div>
+  </body>
+</html>
